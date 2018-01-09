@@ -7,6 +7,9 @@ env:
   - VERSION=7.1 VARIANT=amazonlinux
   - VERSION=7.1 VARIANT=centos
   - VERSION=7.1 VARIANT=apache
+  - VERSION=7.1 VARIANT=apache/alpine
+  - VERSION=7.1 VARIANT=apache/centos
+  - VERSION=7.1 VARIANT=apache/amazonlinux
   - VERSION=7.1 VARIANT=fpm
   - VERSION=7.1 VARIANT=fpm/alpine
   - VERSION=7.1 VARIANT=fpm
@@ -24,6 +27,9 @@ env:
   - VERSION=7.0 VARIANT=amazonlinux
   - VERSION=7.0 VARIANT=centos
   - VERSION=7.0 VARIANT=apache
+  - VERSION=7.0 VARIANT=apache/alpine
+  - VERSION=7.0 VARIANT=apache/centos
+  - VERSION=7.0 VARIANT=apache/amazonlinux
   - VERSION=7.0 VARIANT=fpm
   - VERSION=7.0 VARIANT=fpm/alpine
   - VERSION=7.0 VARIANT=fpm
@@ -41,6 +47,9 @@ env:
   - VERSION=5.6 VARIANT=amazonlinux
   - VERSION=5.6 VARIANT=centos
   - VERSION=5.6 VARIANT=apache
+  - VERSION=5.6 VARIANT=apache/alpine
+  - VERSION=5.6 VARIANT=apache/centos
+  - VERSION=5.6 VARIANT=apache/amazonlinux
   - VERSION=5.6 VARIANT=fpm
   - VERSION=5.6 VARIANT=fpm/alpine
   - VERSION=5.6 VARIANT=fpm

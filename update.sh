@@ -147,7 +147,7 @@ for version in "${versions[@]}"; do
     fi
 
 	for target in \
-		apache \
+		apache apache/alpine apache/centos apache/amazonlinux \
 		fpm fpm/alpine \
 		fpm fpm/centos \
 		fpm fpm/amazonlinux \
